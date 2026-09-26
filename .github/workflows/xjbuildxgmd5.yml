@@ -1,4 +1,4 @@
-name: Release PonWrt
+name: XiaoJun Release PonWrt MD40g
 
 on:
   workflow_dispatch:
