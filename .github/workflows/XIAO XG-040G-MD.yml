@@ -30,8 +30,7 @@ jobs:
       fail-fast: false
       matrix:
         target:
-          - full_xg040gmd_an7581
-          - basic_xg040gmd_an7581
+          - an7581
 #         - an7581
 #         - an7583
 
