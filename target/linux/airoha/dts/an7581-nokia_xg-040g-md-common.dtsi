@@ -89,6 +89,7 @@
 		enable-active-high;
 		gpio = <&en7581_pinctrl 24 GPIO_ACTIVE_HIGH>;
 		regulator-boot-on;
+		regulator-always-on;
 		regulator-max-microvolt = <5000000>;
 		regulator-min-microvolt = <5000000>;
 		regulator-name = "usb-5v";
