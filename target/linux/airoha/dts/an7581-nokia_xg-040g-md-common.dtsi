@@ -288,7 +288,7 @@
 	status = "okay";
 
 	vusb33-supply = <&reg_3p3v>;
-
+	vbus-supply = <&reg_usb_5v>;
 	#address-cells = <1>;
 	#size-cells = <0>;
 
@@ -304,7 +304,7 @@
 	mediatek,u3p-dis-msk = <0x1>;
 	phys = <&usb1_phy PHY_TYPE_USB2>;
 	vusb33-supply = <&reg_3p3v>;
-
+	vbus-supply = <&reg_usb_5v>;
 	#address-cells = <1>;
 	#size-cells = <0>;
 
