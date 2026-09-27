@@ -8,3 +8,11 @@
 	compatible = "nokia,xg-040g-md-ubi", "airoha,an7581",
 		     "airoha,en7581";
 };
+
+&usb0 {
+	vbus-supply = <&reg_usb_5v>;
+};
+
+&usb1 {
+	vbus-supply = <&reg_usb_5v>;
+};
