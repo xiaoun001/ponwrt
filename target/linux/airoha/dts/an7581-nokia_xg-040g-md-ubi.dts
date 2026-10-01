@@ -9,12 +9,10 @@
 		     "airoha,en7581";
 };
 
-&reg_usb_5v {
-	regulator-always-on;
-};
 &usb0 {
 	vbus-supply = <&reg_usb_5v>;
 };
+
 &usb1 {
 	vbus-supply = <&reg_usb_5v>;
 };
